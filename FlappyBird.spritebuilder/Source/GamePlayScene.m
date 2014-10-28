@@ -21,6 +21,7 @@
 // put new methods here
 
 
-
+character = (Character*)[CCBReader load:@"Character"];
+[physicsNode addChild:character];
 
 @end
